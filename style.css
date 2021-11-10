@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+  background-color: lightcyan;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  color: black;
+} 
+
+.blue-bg{
+  position: fixed;
+  background: url(http://c.files.bbci.co.uk/5407/production/_97011512_gettyimages-103583960-1.jpg);
+  background-size: cover;
+  background-color: #58aff6;
+  top: 0;
+  height: 400px;
+  width: 100vw;
+  z-index: -1;
+  overflow-x: hidden;
+}
+
+.white-bg{
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  min-height: 500px;
+  margin: 210px 0px;
+  width: 100vw;
+  height: 110vh;
+  transform: skewY(7deg);
+  z-index: -1;
+}
+
+.content{
+  position: absolute;
+  top: 0;
+  margin: 250px 10vw;
+  max-width: 60vw;
+  max-height: 40%;
+  background-color: transparent;
+}
+
+.shadow{
+  box-shadow: -2px -5px 5px 0px rgba(0,0,0,0.3);
+}
